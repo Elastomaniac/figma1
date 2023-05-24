@@ -5,23 +5,27 @@
   font-style: normal;
 }
 
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 .container {
   max-width: 1440px;
-  max-height: 1024px;
   background-color: rgba(30, 144, 255, 0.5);
-  height: 100vh;
 }
 
 .container-inner {
   width: 1196px;
   margin: 0 auto;
+  padding-top: 41px;
 }
 
 .header {
+  padding: 25px;
   max-width: 1196px;
   background: #fefefe;
   border-radius: 12px;
-  margin: 41px auto 0;
+  margin: 0 auto 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,8 +36,7 @@
   color: #0a2541;
 
   font-size: 36px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .menu-items {
@@ -45,6 +48,7 @@
   text-decoration: none;
   color: black;
   margin-left: 60px;
+  font-weight: 500;
 }
 
 .item-link:hover {
@@ -54,7 +58,9 @@
 .button {
   width: 127px;
   border-radius: 5px;
-  padding: 11px 36px;
+  padding: 11px 30px;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .button1 {
@@ -77,12 +83,10 @@
 }
 
 .h1 {
-  width: 602px;
-  font-family: Roboto;
+  width: 621px;
   font-size: 64px;
   font-weight: 700;
   line-height: 75px;
-  letter-spacing: 0em;
   text-align: left;
   color: #0a2541;
 }
@@ -91,12 +95,21 @@
   color: #5352ed;
 }
 
+.article p {
+  font-size: 24px;
+}
+
 .rocket {
   transform: rotate(-15.51deg);
   position: absolute;
   right: 2%;
   bottom: -50%;
 }
+
+.form {
+  padding-bottom: 192px;
+}
+
 .join {
   color: rgba(0, 0, 0, 0.5);
 }
