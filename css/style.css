@@ -1,12 +1,13 @@
-/* @font-face {
+@font-face {
   font-family: "Roboto";
   src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
   font-weight: normal;
   font-style: normal;
-} */
+}
 
 .container {
   max-width: 1440px;
+  max-height: 1024px;
   background-color: rgba(30, 144, 255, 0.5);
   height: 100vh;
 }
@@ -38,10 +39,6 @@
 .menu-items {
   list-style: none;
   display: flex;
-}
-
-.menu-item {
-  /* flex-grow: 1; */
 }
 
 .item-link {
@@ -94,20 +91,11 @@
   color: #5352ed;
 }
 
-/* .image {
-  position: absolute;
-  right: -8%;
-  bottom: -120%;
-}
-.rocket {
-  transform: rotate(-15.51deg);
-} */
-
 .rocket {
   transform: rotate(-15.51deg);
   position: absolute;
-  right: -8%;
-  bottom: -120%;
+  right: 2%;
+  bottom: -50%;
 }
 .join {
   color: rgba(0, 0, 0, 0.5);
